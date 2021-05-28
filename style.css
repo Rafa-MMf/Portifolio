@@ -1,0 +1,116 @@
+*{ /*RESET*/
+    margin: 0;
+    padding:0;
+    font-family: 'Varela Round', sans-serif;
+    font-size:10px;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/4dfe4782797869.5d285226a7249.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+
+#box{
+    width: 600px;
+    height: 450px;
+    background-color: rgba(192, 192, 192, 0.137);
+    border-radius: 15px;
+    margin: 100px auto;
+}
+
+#cabecalho{
+    width: 95%;
+    height: 100px;
+    background-color:rgb(26, 26, 31);
+    background: url(https://uploaddeimagens.com.br/images/003/189/373/full/2.jpg?1618002735);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px auto;
+   
+}
+#cabecalho img{
+    transform: scale(0.28) translateY(-180%);
+    border-radius: 500px;
+    border: 15px solid white;
+    transition: 0.25s;
+}
+#cabecalho img:hover{
+    transform: scale(0.29) translateY(-180%);
+}
+
+#redes{
+    width: 95%;
+    height: 75px;
+    background-color:rgba(255, 255, 255, 0.048);
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+#badges{
+    width: 95%;
+    height: 210px;
+    background-color:rgba(175, 175, 175, 0.233);
+    margin: 5px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#left-side ul, #right-side ul{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#left-side il, #right-side il{
+    line-height: 40px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    margin: 10px 0;
+    background-color: rgb(32, 32, 32);
+    color:white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#left-side il:hover, #right-side il:hover{
+    transform: scale(1.05);
+  
+}
+
+#left-side a, #right-side a{
+    font-size:1.5em;
+    color:white;
+}
+
+a:visited{
+    color: white;
+}
+
+#redes img{
+    width: 50px;
+    transition: 0.25s;
+    margin: 15px;
+}
+#redes img:hover{
+    transform: scale(1.3);
+}
+
+#redes{
+    display: flex;
+    justify-content: space-around;
+}
